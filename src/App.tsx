@@ -1,5 +1,7 @@
+import Container from "./components/Container/Container";
+
 const App = (): JSX.Element => {
-  return <p></p>;
+  return <Container />;
 };
 
 export default App;
