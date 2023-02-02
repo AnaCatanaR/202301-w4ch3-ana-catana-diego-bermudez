@@ -25,14 +25,18 @@
 
 ## INFO
 
-- Shows the 'is calling' status
+- When receives 'is calling' status true, then it shows 'is calling',
+  therefore, it isn't show nothing.
 
 ## DISPLAY
 
-- Shows the result of the 'add a number' function
-- Shows the result of the 'clear the number' function
+- Receives the phone number
+- Shows the number
 
 ## ACTIONS
+
+- Show the button call
+- Show the button hang up.
 
 ### ACTION
 
@@ -40,6 +44,9 @@
 - One of the 'Action' components takes the function to hung up
 
 ## KEYBOARD
+
+- Receives 'is calling'
+- Disables the keys
 
 ### KEY
 

@@ -1,15 +1,16 @@
 import Actions from "./components/Actions/Actions";
-import Container from "./components/Container/Container";
-import InfoMessage from "./components/InfoMessage/InfoMessage";
+import Info from "./components/Info/Info";
 import Phone from "./components/Phone/Phone";
+import "./App.css";
 
 const App = (): JSX.Element => {
   return (
     <>
-      <Container />
-      <Phone />
-      <InfoMessage />
-      <Actions />
+      <div className="container">
+        <Phone />
+        <Info />
+        <Actions />
+      </div>
     </>
   );
 };
