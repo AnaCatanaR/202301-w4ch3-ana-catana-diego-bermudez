@@ -1,7 +1,7 @@
 import Actions from "./components/Actions/Actions";
 import Container from "./components/Container/Container";
-import Phone from "./components/Phone/Phone";
 import InfoMessage from "./components/InfoMessage/InfoMessage";
+import Phone from "./components/Phone/Phone";
 
 const App = (): JSX.Element => {
   return (
