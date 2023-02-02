@@ -1,3 +1,16 @@
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.phone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .keyboard {
   width: 213px;
   display: flex;
