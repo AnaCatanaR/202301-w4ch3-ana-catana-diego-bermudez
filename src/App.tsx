@@ -1,15 +1,17 @@
 import Actions from "./components/Actions/Actions";
 import Info from "./components/Info/Info";
-import Phone from "./components/Phone/Phone";
+import Keyboard from "./components/Keyboard/Keyboard";
 import "./App.css";
 
 const App = (): JSX.Element => {
   return (
     <>
       <div className="container">
-        <Phone />
         <Info />
-        <Actions />
+        <main className="phone">
+          <Keyboard />
+          <Actions />
+        </main>
       </div>
     </>
   );
