@@ -10,7 +10,7 @@ const App = (): JSX.Element => {
         <Info />
         <main className="phone">
           <Keyboard />
-          <Actions />
+          <Actions numberDisplay={"666666666"} />
         </main>
       </div>
     </>
