@@ -1,10 +1,14 @@
 import "./Actions.css";
 import Display from "../Display/Display";
 
-const Actions = (): JSX.Element => {
+interface ActionsProps {
+  numberDisplay: string;
+}
+
+const Actions = ({ numberDisplay }: ActionsProps): JSX.Element => {
   return (
     <div className="actions">
-      <Display />
+      <Display number={numberDisplay} />
       <a href="call" className="call">
         Call
       </a>
